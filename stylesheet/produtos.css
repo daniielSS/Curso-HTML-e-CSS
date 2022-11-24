@@ -1,0 +1,38 @@
+body {
+    background: lightblue;
+}
+
+.container {
+    display: inline-block;
+    width: 20%;
+}
+
+#img1 {
+    padding-top: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.header {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.itens {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial;
+    padding: 100px;
+}
