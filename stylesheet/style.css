@@ -1,12 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/blackadder-itc');
+
 body {
-    background: lightblue;
+    background: darkkhaki;
 }
 
 #title {
     display: inline-block;
     width: 27.5%;
     padding-left: 20px;
-    font-family: Arial;
+    font-family: 'Blackadder ITC', sans-serif;
+    font-size: 40px;
 }
 
 .container {
@@ -22,6 +25,11 @@ body {
     height: auto;
 }
 
+#subtitle {
+    font-family: 'Blackadder ITC TT', sans-serif;
+    font-size: 40px;
+}
+
 #p2 {
     text-align: center;
     font-size: 20px;
@@ -33,12 +41,7 @@ em strong {
 
 .box {
     display: inline-block;
-    background: lightblue;
-}
-
-.itens {
-    font-style: italic;
-    font-size: 20px;
+    background: white;
 }
 
 .container2 {
@@ -49,13 +52,19 @@ em strong {
 #section {
     text-align: center;
     padding-bottom: 20px;
-    font-family: Arial;
+    font-family: 'Blackadder ITC TT', sans-serif;
+    font-size: 40px;
 }
 
 ul {
     display: inline-block;
     vertical-align: top;
     width: 46%;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 20px;
 }
 
 #img2 {
