@@ -4,23 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - Barbearia Silva</title>
+    <title>Produtos</title>
+    <link rel="stylesheet" href="/stylesheet/reset.css">
     <link rel="stylesheet" href="/stylesheet/produtos.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <img id="img1" src="/img/logo2.png">
-        </div>
-        <div class="header">
-            <div class="navbar">
+            <h1 id="title">Barbearia Silva</h1>
+            <nav>
                 <ul>
-                    <li class="itens"><a>Inicío</a></li>
-                    <li class="itens"><a>Produtos</a></li>
-                    <li class="itens"><a>Contato</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/assets/produtos.html">Produtos</a></li>
+                    <li><a href="/assets/contato.html">Contato</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
+    <main>
+        <ul class="produtos">
+            <li><h2>Cabelo</h2>
+                <img src="/img/cabelo.jpg">
+                <p>Na tesoura ou máquina, como o cliente preferir.</p>
+                <p class="produtos-preços">R$ 25,00</p>
+            </li>
+            <li><h2>Barba</h2>
+                <img src="/img/barba.jpg">
+                <p class="produto-descricao">Corte e desenho profissional de barba.</p>
+                <p class="produtos-preços">R$ 18,00</p>
+            </li>
+            <li><h2>Cabelo + Barba</h2>
+                <img src="/img/cabelo+barba.jpg">
+                <p class="produto-descricao">Pacote completo especial de cabelo e barba.</p>
+                <p class="produtos-preços">R$ 35,00</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright Barbearia Silva - 2022</p>
+    </footer>
 </body>
 </html>
