@@ -1,7 +1,6 @@
-@import url('https://fonts.cdnfonts.com/css/blackadder-itc');
-
-body {
+header {
     background: darkkhaki;
+    padding: 20px 0;
 }
 
 #title {
@@ -10,63 +9,100 @@ body {
     padding-left: 20px;
     font-family: 'Blackadder ITC', sans-serif;
     font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+    background: rgb(163, 159, 94);
+    padding: 5px;
+    border-radius: 10%;
+    border: black solid 2px;
     font-family: Arial;
-    text-align: center;
-    background: white;
-    padding: 20px;
 }
 
-#img1 {
-    margin-top: 11px;
-    width: 98%;
-    height: auto;
-}
-
-#subtitle {
-    font-family: 'Blackadder ITC TT', sans-serif;
-    font-size: 40px;
-}
-
-#p2 {
-    text-align: center;
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
     font-size: 20px;
 }
 
-em strong {
-    color: darkred;
+nav a:hover {
+    color: white;
 }
 
-.box {
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li {
     display: inline-block;
-    background: white;
-}
-
-.container2 {
-    background: white;
-    padding: 20px;
-}
-
-#section {
     text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Blackadder ITC TT', sans-serif;
-    font-size: 40px;
-}
-
-ul {
-    display: inline-block;
+    width: 30%;
     vertical-align: top;
-    width: 46%;
+    padding: 40px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: black 2px solid;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
-.itens {
-    font-style: italic;
+.produtos li:hover h2 {
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+
+.produtos li:hover {
+    border-color: darkgoldenrod;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 16px;
+}
+
+.produtos-preços {
     font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-#img2 {
-    width: 50%;
+footer {
+    background: url("/img/bg.jpg");
+    height: 100px;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 4rem;
+    top: 15px;
+}
+
+.copyright {
+    position: absolute;
+    font-size: 13px;
+    left: 42%;
+    top: 90px;
 }
