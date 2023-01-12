@@ -90,7 +90,7 @@ h2 {
 }
 
 footer {
-    background: url("/img/bg.jpg");
+    background: url("../img/bg.jpg");
     height: 100px;
     color: white;
     padding-top: 50px;
