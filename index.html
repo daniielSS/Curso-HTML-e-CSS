@@ -5,34 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Silva</title>
-    <link rel="stylesheet" href="stylesheet/style-home.css">
+    <link rel="stylesheet" href="stylesheet/reset.css">
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/blackadder-itc">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 id="title">Barbearia Silva</h1>
+        <section class="container">
+            <h1 id="title">Barbearia Silva</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="assets/produtos.html">Produtos</a></li>
+                    <li><a href="assets/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
-    <div class="container">
-        <img id="img1" src="img/banner.jpg">
-    
-        <h2 id="subtitle">História</h2>
+    <main>
+        <img class="banner" src="img/banner.jpg" alt="Cadeiras de uma barbearia.">
+        <section class="section1">
+            <h2 class="subtitle">História</h2>
 
-        <p>No coração da cidade a <strong>Barbearia Silva</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Silva já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <img class="utensilios" src="img/utensilios.jpg" alt="Utensílios de um barbeiro.">
+
+            <p>No coração da cidade a <strong>Barbearia Silva</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Silva já é destaque na cidade e conquista novos clientes a cada dia.</p>
     
-        <p id="p2"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            <p><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></em></p>
     
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-    </div>
-    <div class="box"></div>
-    <div class="container2">
-        <h2 id="section">Benefícios</h2>
-            <ul>
-                <li class="itens">Atendimento aos clientes</li>
-                <li class="itens">Espaço diferenciado</li>
-                <li class="itens">Localização</li>
-                <li class="itens">Profissionais Qualificados</li>
-            </ul>
-        <img id="img2" src="img/beneficios.jpg">
-    </div>
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </section>
+        <section class="mapa">
+            <h2 class="subtitle">Localização</h2>
+
+            <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4416010974223!2d-46.63463424921916!3d-23.588490468404995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ba6816fe839%3A0xda8627521b8e4b90!2sAlura!5e0!3m2!1spt-BR!2sbr!4v1673798120840!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="section2">
+            <h2 class="subtitle">Benefícios</h2>
+                <ul>
+                    <li class="itens">Atendimento aos clientes</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">Profissionais Qualificados</li>
+                </ul>
+        </section>
+        <img class="beneficios" src="img/beneficios.jpg" alt="Um barbeiro fazendo a barba de um cliente.">
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright Barbearia Silva - 2023</p>
+    </footer>
 </body>
 </html>
